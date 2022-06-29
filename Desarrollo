@@ -5,17 +5,31 @@
 
 
 
-
+## Punto 2 ----
 
 matriz <- matrix(rep(1:7, 4), ncol = 4, nrow = 7, byrow = TRUE)
 
 # Solución:
 ## Literal a.
 segunda_columna <- matriz [,2]
+
 ## Literal b.
 tercera_fila <- matriz [3,]
+
 ## Literal c.
 fila3_a_fila7 <- matriz [3:7,]
+
 ## Literal d.
 matriz_d <- matriz [1:2,2:4]
+
+## Punto 3 ----
+
+numero <- 5
+
+# Solución:
+if (numero %% 2 == 0) {
+  print("es par")
+} else if (numero %% 2 != 0) {
+  print("es impar")
+}
 
