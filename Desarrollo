@@ -1,5 +1,17 @@
 
+##Punto 1. Vectores y listas
 
+##¿Cuál es la principal diferencia entre los vectores creados con la función c() y las listas creadas con la función list()?.
+
+### RTA/= Al usar la funcion c() esto quiere decir combinar esto ya que es llamado como una fucnion como argumentos y los elementos
+#que deseamos combinar en un vector. este es separado por comas (,), pueden ser vectores numericos como cadenas de texto, 
+#vectores logicos,a diferencia de las listas  cada uno de los elementos puede ser de diferente tipo e incluso donde diferente clase,
+#por lo que las estructuras puedan mostrar que las listan contengan datos atomicos, vectores, matricez y arrays donde la razon de la lista
+#puede ser considerada un vector recursivo.
+
+##b. Suponga que tiene una lista de n elementos llamada mi_lista. ¿Cuál es la diferencia entre ejecutar mi_lista[0] y mi_lista[[0]]?
+
+### RTA/=si se ejecuta el codigo con list[] se extrae una lista con el elemento seleccionado y si ejecutamos el list[[]] se extrae el elemento como tal 
 
 
 
