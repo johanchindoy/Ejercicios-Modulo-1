@@ -46,15 +46,10 @@ if (numero %% 2 == 0) {
 }
 
 ##Punto 4
+nombres <- c("Andrea", "Carlos", "Juan", "Carolina", "Fernando", "Laura")
 
 for (nombre in nombres) {
-  print("bienvenido{Andrea}")
-  print("bienvenido{Carlos}")
-  print("bienvenido{Juan}")
-  print("bienvenido{Carolina}")
-  print("bienvenido{Fernando}")
-  print("bienvenido{Laura}")
-  
+  print(paste("Bienvenido", nombre))
 }
 
 
