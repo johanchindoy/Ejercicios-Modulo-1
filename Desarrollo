@@ -52,6 +52,14 @@ for (nombre in nombres) {
   print(paste("Bienvenido", nombre))
 }
 
+## Punto 5
 
+mi_funcion <- function(a, b) {
+  return(a ^ b)
+}
+
+respuesta <- mi_funcion(2,3)
+
+respuesta
 
 
