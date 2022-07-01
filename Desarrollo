@@ -45,3 +45,18 @@ if (numero %% 2 == 0) {
   print("es impar")
 }
 
+##Punto 4
+
+for (nombre in nombres) {
+  print("bienvenido{Andrea}")
+  print("bienvenido{Carlos}")
+  print("bienvenido{Juan}")
+  print("bienvenido{Carolina}")
+  print("bienvenido{Fernando}")
+  print("bienvenido{Laura}")
+  
+}
+
+
+
+
